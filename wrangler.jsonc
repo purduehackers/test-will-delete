@@ -1,5 +1,11 @@
 {
     "name": "test-will-delete",
     "compatibility_date": "2026-02-04",
-    "main": "cloudflare.js"
-}
+    "main": "cloudflare.js",
+    "r2_buckets": [
+      {
+        "binding": "CREATURA_BUCKET", // <~ valid JavaScript variable name
+        "bucket_name": "creatura-test"
+      }
+    ]
+  }
