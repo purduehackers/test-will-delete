@@ -1,0 +1,5 @@
+{
+    "name": "test-will-delete",
+    "compatibility_date": "2026-02-04",
+    "main": "cloudflare.js"
+}
